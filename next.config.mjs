@@ -3,6 +3,10 @@ const nextConfig = {
     output: 'export',
     typescript: {
         ignoreBuildErrors: true
+    },
+    images: {
+        loader: 'akamai',
+        path: '/'
     }
 };
 
