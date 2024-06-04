@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a Muffin Final",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,27 +72,27 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "NextJS portfolio website",
+      des: "Simple portfolio website that shows my experience and some of my skills.",
       img: "../public/p1.svg",
       iconLists: ["../public/re.svg", "../public/tail.svg", "../public/ts.svg", "../public/three.svg", "../public/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/OgRepDev/nextjs-portfolio",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Ipos - Couriers Cage",
+      des: "Application for TPV Display Polska for managements deliveried packs. Fullstack application writed in electron",
       img: "../public/p2.svg",
       iconLists: ["../public/next.svg", "../public/tail.svg", "../public/ts.svg", "../public/stream.svg", "../public/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/OgRepDev/electron-ipos",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Kings Vape - Store & Warehouse System",
+      des: "Application writed in electron for warehouse and sells management.",
       img: "../public/p3.svg",
       iconLists: ["../public/re.svg", "../public/tail.svg", "../public/ts.svg", "../public/three.svg", "../public/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/OgRepDev/electron-kingsvape",
     },
     {
       id: 4,
@@ -140,62 +140,44 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
+      name: "KingsVape",
       img: "../public/cloud.svg",
       nameImg: "../public/cloudName.svg",
     },
     {
       id: 2,
-      name: "appwrite",
+      name: "TPV Display Polska",
       img: "../public/app.svg",
       nameImg: "../public/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "../public/host.svg",
-      nameImg: "../public/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "../public/s.svg",
-      nameImg: "../public/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "../public/dock.svg",
-      nameImg: "../public/dockerName.svg",
-    },
-  ];
+    }
+  ]
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Junior C# Programmer PCSOFT",
+      desc: "Assisted in the development of C# scripts for program called Symfonia.",
       className: "md:col-span-2",
       thumbnail: "../public/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Warehouse process analyst",
+      desc: "Designed and developed electron and web applications made in React for modernizing data visualization and facilitating the control of fixed assets.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "../public/exp2.svg",
     },
     {
       id: 3,
       title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "WMS and store system application made for vape store in Strzelce Krajeńskie full solo backend and frontend",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "../public/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Leader of Muffin. group",
+      desc: "Developed and maintained user-facing features using modern front-end technologies. Cooperation with a graphic designer.",
       className: "md:col-span-2",
       thumbnail: "../public/exp4.svg",
     },
